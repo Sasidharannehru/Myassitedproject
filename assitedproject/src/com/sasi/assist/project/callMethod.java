@@ -1,11 +1,14 @@
 package com.sasi.assist.project;
 
+ public class method{
+	 
+
 public int multipynumbers(int a,int b) {
 int z=a*b;
 return z;
 }
 public static void main(String[] args) {
-methodExecution b=new methodExecution();
+methodExecutions b=new methodExecutions();
 int ans= b.multipynumbers(10,3);
 System.out.println("Multipilcation is :"+ans);
 }
@@ -24,7 +27,7 @@ System.out.println("After operation value of data is "+d.val);
 }
 }
 //method overloading
-public class overloadMethod {
+class overloadMethod {
 public void area(int b,int h)
  {
  System.out.println("Area of Triangle : "+(0.5*b*h));
